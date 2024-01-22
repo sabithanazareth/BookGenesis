@@ -1,0 +1,27 @@
+{
+  "name": "lab3_stub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "seed": "node ./tasks/seed.js"
+  },
+  "author": "Sabitha Rachel Nazareth 20012150",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.9.4",
+    "graphql": "^16.8.1",
+    "isbn": "^0.4.0",
+    "isbn3": "^1.1.42",
+    "moment": "^2.29.4",
+    "mongodb": "^6.1.0",
+    "redis": "^4.6.10",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
